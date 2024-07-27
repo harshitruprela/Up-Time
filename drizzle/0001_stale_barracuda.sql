@@ -1,0 +1,1 @@
+ALTER TABLE "stats" RENAME COLUMN "time1" TO "time";

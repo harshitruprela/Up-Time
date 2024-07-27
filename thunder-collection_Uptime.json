@@ -1,0 +1,57 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "Uptime",
+    "collectionId": "9b5ecc4f-429b-43fe-abed-4777206ab422",
+    "dateExported": "2024-06-28T13:31:09.844Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "2407c803-9062-476d-b42e-77f6bc2b25dc",
+            "colId": "9b5ecc4f-429b-43fe-abed-4777206ab422",
+            "containerId": "",
+            "name": "monitor-get",
+            "url": "localhost:3000/api/monitor",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-06-28T13:13:11.618Z",
+            "modified": "2024-06-28T13:13:35.726Z",
+            "headers": []
+        },
+        {
+            "_id": "cc59a635-24f0-4f28-abc7-8750fc593c95",
+            "colId": "9b5ecc4f-429b-43fe-abed-4777206ab422",
+            "containerId": "",
+            "name": "monitor-post",
+            "url": "localhost:3000/api/monitor",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-06-28T13:14:12.866Z",
+            "modified": "2024-06-28T13:15:41.973Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"Monitor2\",\n  \"url\": \"http://example2.com\",\n  \"method\": \"GET\",\n  \"latency\": \"10\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "43164ee2-448a-4ff1-adfa-05d18fa60f21",
+            "colId": "9b5ecc4f-429b-43fe-abed-4777206ab422",
+            "containerId": "",
+            "name": "monitor-put",
+            "url": "http://localhost:3000/api/monitor/Monitor1",
+            "method": "PUT",
+            "sortNum": 30000,
+            "created": "2024-06-28T13:26:22.305Z",
+            "modified": "2024-06-28T13:27:57.932Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"url\": \"http://new-url.com\",\n  \"method\": \"GET\",\n  \"latency\": 200\n}",
+                "form": []
+            }
+        }
+    ],
+    "ref": "0Szfjgn2OwYjTv_6MgwVqwLdRIldoi07F5AEmFOxG0VmbS-20JgC-LoiC8NiMhhyMItAFJJ9ll0CB6fz0hOLQA"
+}
